@@ -29,7 +29,9 @@ public class bullet extends Actor
     
     public void Move()
     {
-        setLocation(getX()+25,getY());
+        if(gun.hasGun == true) {
+            setLocation(getX()+25,getY());
+        }
     }   
       
     public void remove()

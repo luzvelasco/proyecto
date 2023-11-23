@@ -21,6 +21,7 @@ public class gun extends Actor
         int newHeight = myImage.getHeight()/4;
         int newWidth = myImage.getWidth()/4;
         myImage.scale(newWidth, newHeight);
+        hasGun = false;
     }
     
     public void act()
